@@ -2,11 +2,18 @@
 
 ### Data set released on Nov. 2018.
 
-Download link: 
+Download link: https://cmu.box.com/s/uwx90gwknygclykcp3k0gaphkd0f24p8
 
 This txt file contains more than 2 million unique intercepted traffic requests. 
 
 Each line in the file records the traffic request information: app (string), version (string), host (string), path (string), and data (dict). 
+
+Here is an example:
+
+```
+{"data": {"maxResults": "100 "}, "path": "/heard/v1/matches/music", "py/object": "datatypes.trafficrequest.TrafficRequest", "version": "0", "app": "com.google.android.ears", "host": "www.googleapis.com"}
+```
+
 
 
 
