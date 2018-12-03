@@ -1,17 +1,12 @@
 ## Read ME
 
-#### raw_tr.pickle (536 MB)
+### Data set released on Nov. 2018.
 
-This file contains 2 million unique intercepted traffic requests. 
+Download link: 
 
-Download link: https://cmu.box.com/s/th7anfcaqrbvj2wo7qt7ydpj4dkowzci
+This txt file contains more than 2 million unique intercepted traffic requests. 
 
-
-#### unqiuetr.pickle (75.3 MB)
-
-This file contains 60,753 unique network API traces. 
-
-Download link: https://cmu.box.com/s/46sqb7xe8npo4okdregakemdvmupvubf
+Each line in the file records the traffic request information: app (string), version (string), host (string), path (string), and data (dict). 
 
 
 
