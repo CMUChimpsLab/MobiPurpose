@@ -6,7 +6,7 @@ Download link: https://cmu.box.com/s/uwx90gwknygclykcp3k0gaphkd0f24p8
 
 This txt file contains more than 2 million unique intercepted traffic requests. 
 
-Each line in the file records the traffic request information: app (string), version (string), host (string), path (string), and data (dict). 
+Each line in the file records a single traffic request entry: app (string), version (string), host (string), path (string), and data (dict). 
 
 Here is an example:
 
