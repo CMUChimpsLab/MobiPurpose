@@ -42,9 +42,9 @@ data: {key1: val1 | type1 | purpose1, key2: val2 | type2 | purpose2, ...}
 
 ### The apps used in our experiment
 
-[The meta information of the Apps](https://cmu.box.com/s/gdt6ccpi6rbq57mdywv5uzanermia7lw)
+[The list of App descriptions](https://cmu.box.com/s/gdt6ccpi6rbq57mdywv5uzanermia7lw)
 
-[The package names of the Apps](https://cmu.box.com/s/y389k63nh2m3me7egn0xhtwy4idjcn0o)
+[The list of App package names](https://cmu.box.com/s/y389k63nh2m3me7egn0xhtwy4idjcn0o)
 
 Please cite: 
 
