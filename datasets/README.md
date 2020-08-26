@@ -1,8 +1,9 @@
 ## Read ME
 
+
 ### Data set released on Nov. 2018.
 
-Download link: https://cmu.box.com/s/uwx90gwknygclykcp3k0gaphkd0f24p8
+[Raw data set download link](https://cmu.box.com/s/uwx90gwknygclykcp3k0gaphkd0f24p8)
 
 This txt file contains more than 2 million unique intercepted traffic requests. 
 
@@ -14,8 +15,26 @@ Here is an example:
 {"data": {"maxResults": "100 "}, "path": "/heard/v1/matches/music", "py/object": "datatypes.trafficrequest.TrafficRequest", "version": "0", "app": "com.google.android.ears", "host": "www.googleapis.com"}
 ```
 
+### Processed Data set with predicted purpose.
+
+[the traffic requests with classified data type and inferred purpose.](https://cmu.box.com/s/tlnsk6blcs6hp25cww8nogp70w1uzn9m)
+
+Each line inside the file is a json string of a classified request.
+<code>
+{ app:  
+version: 
+host:
+path:
+data: {key1: val1 | type1 | purpose1, key2: val2 | type2 | purpose2, ...}
+}
+</code>
 
 
+### The apps used in our experiment
+
+[The meta information of the Apps](https://cmu.box.com/s/gdt6ccpi6rbq57mdywv5uzanermia7lw)
+
+[The package names of the Apps](https://cmu.box.com/s/y389k63nh2m3me7egn0xhtwy4idjcn0o)
 
 Please cite: 
 
