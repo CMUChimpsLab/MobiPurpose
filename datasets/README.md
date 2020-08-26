@@ -12,7 +12,16 @@ Each line in the file records a single traffic request entry: app (string), vers
 Here is an example:
 
 <pre>
-{"data": {"maxResults": "100 "}, "path": "/heard/v1/matches/music", "py/object": "datatypes.trafficrequest.TrafficRequest", "version": "0", "app": "com.google.android.ears", "host": "www.googleapis.com"}
+{
+  "data": {
+    "maxResults": "100 "
+  },
+  "path": "/heard/v1/matches/music",
+  "py/object": "datatypes.trafficrequest.TrafficRequest",
+  "version": "0",
+  "app": "com.google.android.ears",
+  "host": "www.googleapis.com"
+}
 </pre>
 
 ### Processed Data set with predicted purpose.
