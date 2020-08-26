@@ -24,9 +24,9 @@ Here is an example:
 }
 </pre>
 
-### Processed Data set with predicted purpose.
+### Processed Data set with inferred purpose.
 
-[the traffic requests with classified data type and inferred purpose.](https://cmu.box.com/s/tlnsk6blcs6hp25cww8nogp70w1uzn9m)
+[Annotated traffic requests with classified data type and inferred purpose.](https://cmu.box.com/s/tlnsk6blcs6hp25cww8nogp70w1uzn9m)
 
 Each line inside the file is a json string of a classified request.
 
