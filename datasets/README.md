@@ -20,14 +20,15 @@ Here is an example:
 [the traffic requests with classified data type and inferred purpose.](https://cmu.box.com/s/tlnsk6blcs6hp25cww8nogp70w1uzn9m)
 
 Each line inside the file is a json string of a classified request.
-<code>
+
+<pre>
 { app:  
 version: 
 host:
 path:
 data: {key1: val1 | type1 | purpose1, key2: val2 | type2 | purpose2, ...}
 }
-</code>
+</pre>
 
 
 ### The apps used in our experiment
