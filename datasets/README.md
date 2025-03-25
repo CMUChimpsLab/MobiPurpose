@@ -3,7 +3,12 @@
 
 ### Data set released on Nov. 2018.
 
-[Raw data set download link](https://cmu.box.com/s/uwx90gwknygclykcp3k0gaphkd0f24p8)
+[Raw data set download link](https://www.haojianj.in/mobipurpose/Raw/traffic-request-v1.json)
+
+```
+wget https://www.haojianj.in/mobipurpose/Raw/traffic-request-v1.json
+```
+
 
 This txt file contains more than 2 million unique intercepted traffic requests. 
 
@@ -26,7 +31,11 @@ Here is an example:
 
 ### Processed Data set with inferred purpose.
 
-[Annotated traffic requests with classified data type and inferred purpose.](https://cmu.box.com/s/tlnsk6blcs6hp25cww8nogp70w1uzn9m)
+[Annotated traffic requests with classified data type and inferred purpose.](http://www.haojianj.in/mobipurpose/LabeledWithPurpose/data_what_why_json.json)
+
+```
+ wget http://www.haojianj.in/mobipurpose/LabeledWithPurpose/data_what_why_json.json
+```
 
 Each line inside the file is a json string of a classified request.
 
